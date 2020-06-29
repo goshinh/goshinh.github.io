@@ -233,7 +233,7 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/goshinh" class="waves-effect waves-light" target="_blank">
                 <i class="fab fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -290,7 +290,7 @@
     }
 </style>
 
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/goshinh" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -450,7 +450,17 @@
                 
 
                 
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    2.1k
+                </div>
+                
 
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    7 分
+                </div>
                 
 
                 
@@ -483,25 +493,7 @@
 <h3 id="（四）新课程理论"><a href="#（四）新课程理论" class="headerlink" title="（四）新课程理论"></a>（四）新课程理论</h3><h4 id="1-基础教育课程改革的背景、目标及基本理念"><a href="#1-基础教育课程改革的背景、目标及基本理念" class="headerlink" title="1.基础教育课程改革的背景、目标及基本理念"></a>1.基础教育课程改革的背景、目标及基本理念</h4><h4 id="2-《义务教育课程设置实验方案》的主要内容"><a href="#2-《义务教育课程设置实验方案》的主要内容" class="headerlink" title="2.《义务教育课程设置实验方案》的主要内容"></a>2.《义务教育课程设置实验方案》的主要内容</h4><h4 id="3-课程标准、课程标准的基本框架"><a href="#3-课程标准、课程标准的基本框架" class="headerlink" title="3.课程标准、课程标准的基本框架"></a>3.课程标准、课程标准的基本框架</h4><h4 id="4-新课程教学观、学生观、评价观"><a href="#4-新课程教学观、学生观、评价观" class="headerlink" title="4.新课程教学观、学生观、评价观"></a>4.新课程教学观、学生观、评价观</h4><h4 id="5-课程资源（校本课程）的开发和利用"><a href="#5-课程资源（校本课程）的开发和利用" class="headerlink" title="5.课程资源（校本课程）的开发和利用"></a>5.课程资源（校本课程）的开发和利用</h4><h4 id="6-校本教研与教师专业发展"><a href="#6-校本教研与教师专业发展" class="headerlink" title="6.校本教研与教师专业发展"></a>6.校本教研与教师专业发展</h4><h3 id="（五）教师职业道德修养"><a href="#（五）教师职业道德修养" class="headerlink" title="（五）教师职业道德修养"></a>（五）教师职业道德修养</h3><h4 id="1-教师职业道德规范"><a href="#1-教师职业道德规范" class="headerlink" title="1.教师职业道德规范"></a>1.教师职业道德规范</h4><p>《中小学教师职业道德规范》（2008年）、《安徽省中职中小学教师职业道德考核办法（试行）》(2013年)</p>
 <h4 id="2-教师职业行为"><a href="#2-教师职业行为" class="headerlink" title="2.教师职业行为"></a>2.教师职业行为</h4><p>（1）教师职业行为规范的要求和主要内容<br>（2）加强师德修养的途径、方法</p>
 <h2 id="四、考试形式和试卷结构"><a href="#四、考试形式和试卷结构" class="headerlink" title="四、考试形式和试卷结构"></a>四、考试形式和试卷结构</h2><p>1.考试形式：闭卷、笔试。<br>2.考试时间120分钟，试卷分值120分。<br>3.主要题型：选择题、简答题、论述题、材料解析题、案例分析题等。<br>4.内容比例：学科专业知识约占70﹪，运用专业知识能力约占30﹪。</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -757,17 +749,15 @@
 
 教育的概念及其本质属性
 选择、判断
-⭐
+:star:
 
 
 教育的构成要素及其关系
 选择、判断
-⭐ ⭐ ⭐
+:star: :star: :star:
 
 
-教育的起源及其发展阶段
-选择、判断
-⭐ ⭐
+教
                         
                     </div>
                     <div class="publish-info">
@@ -840,6 +830,43 @@
 
 </div>
 
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: IT达摩<br />'
+            + '文章作者: 合肥市贵阳路小学 吴心锋<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
 
 
 <!-- 代码块功能依赖 -->
@@ -1024,10 +1051,10 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            <span id="year">2019</span>
+            <span id="year">2017</span>
             <a href="/about" target="_blank">合肥市贵阳路小学 吴心锋</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
@@ -1051,17 +1078,61 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             
             <br>
             
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2017";
+                    var startMonth = "6";
+                    var startDate = "28";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
             <br>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/goshinh" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:3043292995@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -1071,7 +1142,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3043292995" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 3043292995" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 

@@ -144,18 +144,6 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
     </summary>
     
     
@@ -170,18 +158,6 @@
     <updated>2019-05-27T15:05:24.000Z</updated>
     
     <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
     
     </summary>
     
@@ -224,18 +200,6 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
     </summary>
     
     
@@ -274,18 +238,6 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
     </summary>
     
     
@@ -300,18 +252,6 @@
     <updated>2019-05-27T15:05:24.000Z</updated>
     
     <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
     
     </summary>
     
@@ -471,7 +411,7 @@
     
       &lt;h2 id=&quot;第1单元-制作班级课程表&quot;&gt;&lt;a href=&quot;#第1单元-制作班级课程表&quot; class=&quot;headerlink&quot; title=&quot;第1单元 制作班级课程表&quot;&gt;&lt;/a&gt;第1单元 制作班级课程表&lt;/h2&gt;&lt;p&gt;在日常生活和学习中，我们经常会用到各式各样的表格，例如，课程表、班级卫生值日表、作息时间表等等。&lt;/p&gt;
 &lt;p&gt;本单元我们就利用Microsoft Office 2003 Word软件来制作精美的班级课程表。&lt;/p&gt;
-&lt;h4 id=&quot;cinema-看课程视频&quot;&gt;&lt;a href=&quot;#cinema-看课程视频&quot; class=&quot;headerlink&quot; title=&quot;:cinema: 看课程视频&quot;&gt;&lt;/a&gt;&lt;span class=&quot;github-emoji&quot; style=&quot;color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f3a6.png?v8) center/contain&quot; data-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f3a6.png?v8&quot;&gt;🎦&lt;/span&gt; &lt;a href=&quot;https://itdamo.ke.qq.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;看课程视频&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&quot;本单元介绍以下内容&quot;&gt;&lt;a href=&quot;#本单元介绍以下内容&quot; class=&quot;headerlink&quot; title=&quot;本单元介绍以下内容&quot;&gt;&lt;/a&gt;本单元介绍以下内容&lt;/h4&gt;&lt;ul&gt;
+&lt;h4 id=&quot;cinema-看课程视频&quot;&gt;&lt;a href=&quot;#cinema-看课程视频&quot; class=&quot;headerlink&quot; title=&quot;:cinema: 看课程视频&quot;&gt;&lt;/a&gt;:cinema: &lt;a href=&quot;https://itdamo.ke.qq.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;看课程视频&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&quot;本单元介绍以下内容&quot;&gt;&lt;a href=&quot;#本单元介绍以下内容&quot; class=&quot;headerlink&quot; title=&quot;本单元介绍以下内容&quot;&gt;&lt;/a&gt;本单元介绍以下内容&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;表格和单元格的知识&lt;/li&gt;
 &lt;li&gt;行和列的添加和删除&lt;/li&gt;
 &lt;li&gt;表格的创建和删除&lt;/li&gt;
